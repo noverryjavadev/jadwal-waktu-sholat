@@ -39,3 +39,18 @@ body{
     color:white;
     cursor: pointer;
 }
+
+#citySelect {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-top: none;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+#app h3 {
+    /* Pastikan border radius atas jika perlu */
+    border-radius: 5px 5px 0 0;
+}

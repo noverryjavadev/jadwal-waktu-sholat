@@ -7,8 +7,20 @@
 </head>
 <body>
 
+<div id="app">
+    <h3>Jadwal Waktu Sholat</h3>
+    <select id="citySelect" onchange="changeCity()">
+        <option value="-6.200000,106.816666">Jakarta</option>
+        <option value="-6.917464,107.619123">Bandung</option>
+        <option value="-7.250445,112.768845">Surabaya</option>
+        <option value="-7.795580,110.369490">Yogyakarta</option>
+        <option value="3.595196,98.672223">Medan</option>
+        <option value="-5.147665,119.432731">Makassar</option>
+    </select>
 
-<div id="app"></div>
+    <div id="prayerContent"></div>
+</div>
+
 <script src="jadwalApp.js"></script>
 </body>
 </html>
